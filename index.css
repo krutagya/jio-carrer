@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ---------top nav-bar------- */
+
+.logo :nth-child(2){
+    font-weight: bolder;
+    color: black;
+    margin-left: 8px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+.logo{
+    display: flex;
+    margin-left: 7vw;
+}
+
+.button:hover{
+    background-color:rgb(255,255,255);
+    color: rgb(98, 98, 98);
+}
+.button{
+    font-size: 12px;
+    font-weight: 700; 
+    background-color:rgb(53,53,243) ;
+    border: 1px solid #3535F3;
+    color: white;
+    border-radius: 25px;
+    transition:0.8s ease-in-out;
+    padding: 7px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245,245,245);
+    padding:20px
+
+}
+.login{
+    margin-right:7vw ;
+}
+
+/* -------------xxxxxxx---------------------xxxxx---------------xxxx---------- */
+.img{
+    img{
+        height:160px ;
+    }
+}
+.movingtext{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.inner{
+    display: flex;
+}
+.banner{
+    img{
+        height: 388px;
+        width:582px;
+    }
+    margin-left: 35vw;
+    margin-top: 11vh;
+}
